@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite dev",
+    "dev": "vp dev",
     "start": "vite preview",
     "typecheck": "react-router typegen && tsc",
     "format": "prettier --write \"**/*.{ts,tsx}\""
