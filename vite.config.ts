@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     host: "::",
     port: Number(process.env.PORT || 8080),
+    allowedHosts: true,
     hmr: {
       overlay: false,
     },
